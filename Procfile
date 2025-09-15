@@ -1,1 +1,1 @@
-web: gunicorn backend_taller.wsgi.application
+web: gunicorn backend_taller.wsgi:application
