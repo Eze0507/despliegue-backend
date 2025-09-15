@@ -17,8 +17,6 @@ from personal_admin.models import Empleado
 from .serializers.serializers_empleado import EmpleadoReadSerializer, EmpleadoWriteSerializer
 from clientes_servicios.models import Cliente
 from personal_admin.serializers.serializers_profile import ProfileUpdateSerializer, EmpleadoProfileUpdateSerializer
-from rest_framework import permissions
-from rest_framework import status
 from .serializers.serializers_password import ChangePasswordSerializer
 from rest_framework.exceptions import NotFound
 from django.utils.decorators import method_decorator
