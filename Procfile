@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn backend_taller.wsgi:application
+web: python manage.py collectstatic && gunicorn backend_taller.wsgi:application
