@@ -133,11 +133,12 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://despliegue-frontend-production.up.railway.app"
 ]
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    'https://web-production-1343b.up.railway.app'
+    "https://despliegue-frontend-production.up.railway.app"
 ]
 
 # Permitir que el navegador envíe cookies en peticiones cross-origin
