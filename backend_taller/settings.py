@@ -140,3 +140,5 @@ CSRF_TRUSTED_ORIGINS = [
 
 # Permitir que el navegador envíe cookies en peticiones cross-origin
 CORS_ALLOW_CREDENTIALS = True
+
+CSRF_TRUSTED_ORIGINS = ['https://*','https://web-production-1343b.up.railway.app']
